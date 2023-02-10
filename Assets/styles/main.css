@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+header {background-image: url(../Img/design1_image1.jpg);
+    background-position-y: center;
+    min-height: 10vh;
+    padding: 5rem;
+    }
+
+h1 {margin: 0px 15px;}
+h2 {background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    margin: 3px 0px;
+}
+section div {display: inline;}
