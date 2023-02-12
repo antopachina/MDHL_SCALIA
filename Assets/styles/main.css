@@ -5,6 +5,7 @@
 }
 header {background-image: url(../Img/design1_image1.jpg);
     background-position-y: center;
+    background-size: cover;
     min-height: 10vh;
     padding: 5rem;
     }
@@ -14,5 +15,29 @@ h2 {background-color: black;
     color: antiquewhite;
     text-align: center;
     margin: 3px 0px;
+    z-index: 2;
 }
-section div {display: inline;}
+p {margin: 0px 15px;}
+.logo {
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    right: 150px;
+    }
+.rutas {display: block;
+    padding: 25px;
+}
+article {
+    margin: 25px ;
+}
+
+.cuerpo {display: inline-block;
+
+}
+nav {display: inline-block;
+    }
+.imagen {
+    display:inline-block;
+    scale: auto;
+    float: right;
+   }
