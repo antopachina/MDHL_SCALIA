@@ -28,11 +28,12 @@ p {margin: 0px 15px;}
     padding: 25px;
 }
 article {
-    margin: 25px ;
+    margin-bottom: 25px;
 }
 
 .cuerpo {display: inline-block;
-
+    vertical-align: top;
+    padding-top: 25px;
 }
 nav {display: inline-block;
     }
