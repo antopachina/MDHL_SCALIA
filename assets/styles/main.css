@@ -3,7 +3,7 @@
     border: 0;
     margin: 0;
 }
-header {background-image: url(../Img/design1_image1.jpg);
+header {background-image: url(../img/design1_image1.jpg);
     background-position-y: center;
     background-size: cover;
     min-height: 10vh;
@@ -18,12 +18,14 @@ h1 {margin: 0px 15px;}
     z-index: 2;
 }
 p {text-indent: 1.5em;}
-.logo {
-    display: inline-block;
-    position: absolute;
-    top: 150px;
-    right: 150px;
-    }
+.contenedorlogo {
+    display: flex;
+    justify-content: right;
+    align-items:flex-end;
+}
+.logo {display: flex;
+    max-width: 15%;
+}
 .rutas {display: block;
     padding: 25px;
 }
@@ -48,8 +50,9 @@ nav {vertical-align: top;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 25px;
     }
-.fotos {height: 30rem;
+.fotos {height: 20rem;
 }
 .encabezado {margin: 0px;
     font-size: 22px;
@@ -94,4 +97,10 @@ td, th {
   padding-left: 50px;
   text-align: left;
   padding-top: 10px;
+}
+
+.tablasecundaria {
+    border: 2px brown solid;
+    padding-top: 15px;
+    padding-bottom: 25px;
 }
