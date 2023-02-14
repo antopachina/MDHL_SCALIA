@@ -11,7 +11,7 @@ header {background-image: url(../Img/design1_image1.jpg);
     }
 
 h1 {margin: 0px 15px;}
-h2 {background-color: black;
+.h2principal {background-color: black;
     color: antiquewhite;
     text-align: center;
     margin: 3px 0px;
@@ -52,6 +52,7 @@ nav {vertical-align: top;
 .fotos {height: 30rem;
 }
 .encabezado {margin: 0px;
+    font-size: 22px;
 }
 .encabezadobox {
     display: flex;
@@ -59,6 +60,7 @@ nav {vertical-align: top;
     align-items: center;
     margin-bottom: 15px;
 }
+
 .h3rules {margin-top: 15px;
 margin-bottom: 15px;}
 
@@ -73,3 +75,23 @@ li {margin-top: 15px;
     }
 .listacircular {list-style-type: circle;
 padding-left: 3em;}
+
+.Infotabla1 {text-indent: 0em;
+    font-size: 20px;
+    font-style: italic;
+}
+.Infotabla2 {text-indent: 0em;
+    font-size: 18px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+table {
+    margin: 25px;
+    border-collapse: separate;
+}
+td, th {
+  padding-left: 50px;
+  text-align: left;
+  padding-top: 10px;
+}
