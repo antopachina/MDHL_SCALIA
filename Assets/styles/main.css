@@ -17,7 +17,7 @@ h2 {background-color: black;
     margin: 3px 0px;
     z-index: 2;
 }
-p {margin: 0px 15px;}
+p {text-indent: 1.5em;}
 .logo {
     display: inline-block;
     position: absolute;
@@ -30,24 +30,46 @@ p {margin: 0px 15px;}
 article {
     margin-bottom: 25px;
 }
-
-.cuerpo {display: inline-block;
+.boxmayor {display: flex;
+    align-items:flex-start;
+}
+.cuerpo {display: flex;
+    flex-direction: column;
     vertical-align: top;
     padding-top: 25px;
+    min-width: auto;
+    margin-right: 25px;
 }
-nav {display: inline-block;
+nav {vertical-align: top;
+    min-width: 200px;
     }
+
 .imagen {
-    scale: 50%;
-    float: right;
-    position: absolute;
-    top: 150px;
-    right: -270px;
-    } 
-.imagen2 {
-    scale: 50%;
-    float: right;
-    position: absolute;
-    top: 250px;
-    right: -270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
+.fotos {height: 30rem;
+}
+.encabezado {margin: 0px;
+}
+.encabezadobox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.h3rules {margin-top: 15px;
+margin-bottom: 15px;}
+
+li {margin-top: 15px;
+    margin-bottom: 15px;
+}
+.listaprincipal {list-style-type: decimal;
+    padding-left: 1em;
+}
+.listaletras {list-style-type: lower-latin;
+    padding-left: 1em;
+    }
+.listacircular {list-style-type: circle;
+padding-left: 3em;}
