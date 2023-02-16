@@ -99,15 +99,42 @@ td, th {
   padding-top: 10px;
 }
 
+.tablademapas
+{
+    text-align: center;
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+.thmaps {
+    text-align: center;
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+.trmaps {
+    text-align: center;
+    border: 1px black solid;
+    border-collapse: collapse;
+    
+}
+.tdmaps {
+    text-align: center;
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+iframe {
+    border-radius: 1rem;
+    width: 10rem;
+}
+
 .tablasecundaria {
-    border: 2px brown solid;
     padding-top: 15px;
     padding-bottom: 25px;
+    background-color: lightgray;
 }
 form {
     display: flex;
     flex-direction: column;
-    max-width: auto;
     padding: 15px;
     border: 2px black solid;
     margin-bottom: 25px;
@@ -122,7 +149,7 @@ input {
     background-color:rgb(236, 233, 236);
     margin-right: 5px;
     margin-top: 10px;
-}
+    }
 label {
     margin-right: 5px;
 }

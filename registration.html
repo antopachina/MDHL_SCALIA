@@ -29,48 +29,48 @@
             <fieldset class="fieldsetbox">
                 <legend>Personal information</legend>
                 <fieldset>
-                    <label for="fname">Player’s First Name:</label>
-                    <input type="text" name="first_name" id="first_name">
+                    <label for="fname">Player First Name:</label>
+                    <input type="text" name="fname" id="fname">
                     <label for="lname">Last Name:</label>
-                    <input type="text" name="last_name" id="last_name">
+                    <input type="text" name="lname" id="lname">
                 </fieldset>
                 <fieldset>
                     <label for="sadress">Street Adress:</label>
-                    <input type="text" name="street_adress" id="street_adress"><br>
+                    <input type="text" name="sadress" id="sadress"><br>
                     <label for="city">City:</label>
                     <input type="text" name="city" id="city">
                     <label for="zcode">Zip Code:</label>
-                    <input type="text" name="zip_code" id="zip_code">
+                    <input type="text" name="zcode" id="zcode">
                 </fieldset>
                 <fieldset>
                     <label for="bdate">Birth Date:</label>
-                    <input type="date" name="birht_date" id="birht_date">
-                    <label for="gender">Gender:</label>
+                    <input type="date" name="bdate" id="bdate">
+                    <p>Gender:</p>
                     <input type="radio" id="famele" name="gender" value="famele" checked>
                     <label for="famele">Famele</label>
                     <input type="radio" id="male" name="gender" value="male" checked >
-                    <label for="gender">Male</label><br>
-                    <label for="grade">Grade:</label>
-                </fieldset>
+                    <label for="male">Male</label><br>
+                    </fieldset>
                 <fieldset>
-                    <input type="radio" id="" name="grade" value="pschool" checked>
+                    <p>Grade:</p>
+                    <input type="radio" id="pschool" name="grade" value="pschool" checked>
                     <label for="pschool">Pre-School</label>
                     <input type="radio" id="1st" name="grade" value="1st" checked >
-                    <label for="grade">1st</label>
+                    <label for="1st">1st</label>
                     <input type="radio" id="2nd" name="grade" value="2nd" checked >
-                    <label for="grade">2nd</label>
+                    <label for="2nd">2nd</label>
                     <input type="radio" id="3rd" name="grade" value="3rd" checked >
-                    <label for="grade">3rd</label>
+                    <label for="3rd">3rd</label>
                     <input type="radio" id="4th" name="grade" value="4th" checked >
-                    <label for="grade">4th</label>
+                    <label for="4th">4th</label>
                     <input type="radio" id="5th" name="grade" value="5th" checked >
-                    <label for="grade">5th</label>
+                    <label for="5th">5th</label>
                 </fieldset>
+            </fieldset>
                 <fieldset class="fieldsetbox">
                     <legend>Witch elementary school do you live near?</legend>
                     <label for="school">Closest school</label><br>
                     <select name="school" id="school" multiple>
-                        <option disable selected>Select</option>
                         <option value="katzenmaier">Aj Katzenmaier</option>
                         <option value="greenbay">Greenbay</option>
                         <option value="howard">Howard A Yeager</option>
@@ -82,30 +82,30 @@
                 <fieldset class="fieldsetbox">
                 <legend>What position(s) do you normally play? (Check all that apply)</legend>
                 <input type="checkbox" id="forward" name="position" value="forward" checked>
-                <label for="position">Forward</label>
+                <label for="forward">Forward</label>
                 <input type="checkbox" id="midfield" name="position" value="midfield" checked >
-                <label for="position">Midfield</label>
+                <label for="midfield">Midfield</label>
                 <input type="checkbox" id="defense" name="position" value="defense" checked >
-                <label for="position">Defense</label>
+                <label for="defense">Defense</label>
                 <input type="checkbox" id="goalkeeper" name="position" value="goalkeeper" checked >
-                <label for="position">GoalKeeper</label>
+                <label for="goalkeeper">GoalKeeper</label>
             </fieldset>
             <fieldset class="fieldsetbox">
                 <legend>Uniform Size:</legend>
                 <input type="radio" id="ysmall" name="size" value="ysmall" checked>
-                <label for="size">Youth Small</label>
+                <label for="ysmall">Youth Small</label>
                 <input type="radio" id="ymedium" name="size" value="ymedium" checked >
-                <label for="size">Youth Medium</label>
+                <label for="ymedium">Youth Medium</label>
                 <input type="radio" id="ylarge" name="size" value="ylarge" checked >
-                <label for="size">Youth Llarge</label>
+                <label for="ylarge">Youth Llarge</label>
                 <input type="radio" id="small" name="size" value="small" checked>
-                <label for="size">Small</label>
+                <label for="small">Small</label>
                 <input type="radio" id="medium" name="size" value="medium" checked >
-                <label for="size">Medium</label>
+                <label for="medium">Medium</label>
                 <input type="radio" id="large" name="size" value="large" checked >
-                <label for="size">Large</label>
+                <label for="large">Large</label>
                 <input type="radio" id="elarge" name="size" value="elarge" checked >
-                <label for="size"> ExtraLarge</label>
+                <label for="elarge"> ExtraLarge</label>
             </fieldset>
              <fieldset class="fieldsetbox">
                 <legend>Permision to play</legend>
@@ -119,7 +119,8 @@
                     <input type="date" name="date" id="date">
                 </fieldset>
             </fieldset>
-            <input type="submit" value="submit"></form>
+            <input type="submit" value="submit">
+        </form>
     </div>
 </div>
 </main>
