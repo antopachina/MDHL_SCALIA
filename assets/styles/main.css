@@ -104,3 +104,30 @@ td, th {
     padding-top: 15px;
     padding-bottom: 25px;
 }
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: auto;
+    padding: 15px;
+    border: 2px black solid;
+    margin-bottom: 25px;
+}
+.fieldsetbox {
+    border-top: 0.5px black solid;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+input {
+    border: 0.5px gray solid;
+    background-color:rgb(236, 233, 236);
+    margin-right: 5px;
+    margin-top: 10px;
+}
+label {
+    margin-right: 5px;
+}
+legend {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
